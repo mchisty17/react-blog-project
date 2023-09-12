@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover": "https://example.com/blog1-cover.jpg",
+    "title": "The Art of Cooking",
+    "author": "Jane Smith",
+    "author_image": "https://example.com/author1-image.jpg",
+    "posted_date": "2023-09-10",
+    "reading_time": "15 minutes",
+    "hashtags": ["Cooking", "Recipes", "Food"]
+  },
+  {
+    "id": 2,
+    "cover": "https://example.com/blog2-cover.jpg",
+    "title": "Traveling the World",
+    "author": "Michael Johnson",
+    "author_image": "https://example.com/author2-image.jpg",
+    "posted_date": "2023-09-08",
+    "reading_time": "20 minutes",
+    "hashtags": ["Travel", "Adventure", "Destinations"]
+  },
+  {
+    "id": 3,
+    "cover": "https://example.com/blog3-cover.jpg",
+    "title": "Tech Trends in 2023",
+    "author": "David Lee",
+    "author_image": "https://example.com/author3-image.jpg",
+    "posted_date": "2023-09-06",
+    "reading_time": "12 minutes",
+    "hashtags": ["Technology", "Trends", "Innovation"]
+  },
+  {
+    "id": 4,
+    "cover": "https://example.com/blog4-cover.jpg",
+    "title": "Fitness Tips for a Healthy Lifestyle",
+    "author": "Emily Brown",
+    "author_image": "https://example.com/author4-image.jpg",
+    "posted_date": "2023-09-04",
+    "reading_time": "18 minutes",
+    "hashtags": ["Fitness", "Health", "Wellness"]
+  },
+  {
+    "id": 5,
+    "cover": "https://example.com/blog5-cover.jpg",
+    "title": "The Importance of Sustainable Living",
+    "author": "Alex Turner",
+    "author_image": "https://example.com/author5-image.jpg",
+    "posted_date": "2023-09-02",
+    "reading_time": "14 minutes",
+    "hashtags": ["Sustainability", "Environment", "GreenLiving"]
+  }
+]
