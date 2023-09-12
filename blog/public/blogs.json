@@ -1,52 +1,52 @@
 [
   {
     "id": 1,
-    "cover": "https://example.com/blog1-cover.jpg",
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Java_Programming_Cover.jpg",
     "title": "The Art of Cooking",
     "author": "Jane Smith",
     "author_image": "https://example.com/author1-image.jpg",
     "posted_date": "2023-09-10",
-    "reading_time": "15 minutes",
+    "reading_time": 15,
     "hashtags": ["Cooking", "Recipes", "Food"]
   },
   {
     "id": 2,
-    "cover": "https://example.com/blog2-cover.jpg",
+    "cover": "https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2018/08/how-to-start-a-blog-2.webp",
     "title": "Traveling the World",
     "author": "Michael Johnson",
     "author_image": "https://example.com/author2-image.jpg",
     "posted_date": "2023-09-08",
-    "reading_time": "20 minutes",
+    "reading_time": 20,
     "hashtags": ["Travel", "Adventure", "Destinations"]
   },
   {
     "id": 3,
-    "cover": "https://example.com/blog3-cover.jpg",
+    "cover": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2017/11/how-to-write-a-blog-post-437x233.jpeg",
     "title": "Tech Trends in 2023",
     "author": "David Lee",
     "author_image": "https://example.com/author3-image.jpg",
     "posted_date": "2023-09-06",
-    "reading_time": "12 minutes",
+    "reading_time": 12,
     "hashtags": ["Technology", "Trends", "Innovation"]
   },
   {
     "id": 4,
-    "cover": "https://example.com/blog4-cover.jpg",
+    "cover": "https://neilpatel.com/wp-content/uploads/fly-images/177648/Tips-for-Writing-a-Blog-Post-in-Under-60-Minutes-1200x675-c.jpg",
     "title": "Fitness Tips for a Healthy Lifestyle",
     "author": "Emily Brown",
     "author_image": "https://example.com/author4-image.jpg",
     "posted_date": "2023-09-04",
-    "reading_time": "18 minutes",
+    "reading_time": 18,
     "hashtags": ["Fitness", "Health", "Wellness"]
   },
   {
     "id": 5,
-    "cover": "https://example.com/blog5-cover.jpg",
+    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdclQ28KHe9_p4P1RtGrXwdWx60L0REZyFTw&usqp=CAU",
     "title": "The Importance of Sustainable Living",
     "author": "Alex Turner",
     "author_image": "https://example.com/author5-image.jpg",
     "posted_date": "2023-09-02",
-    "reading_time": "14 minutes",
+    "reading_time": 14,
     "hashtags": ["Sustainability", "Environment", "GreenLiving"]
   }
 ]
