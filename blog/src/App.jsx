@@ -1,10 +1,21 @@
+import { useState } from 'react'
 import './App.css'
 import AllBlogs from './components/AllBlogs'
 import Bookmark from './components/Bookmark'
-import Blogs from './components/blogs'
 import Header from './components/header'
 
 function App() {
+ 
+const [bookmarks,setbookmarks]=useState([])
+
+
+const handlebookmark=blog=>
+{
+const newbookmarks=[...bookmarks,blog]
+setbookmarks(newbookmarks)
+
+}
+
 
   return (
     <>
@@ -13,7 +24,7 @@ function App() {
 <Header></Header>
 <div className='flex justify-between mt-5'>
 
-<AllBlogs>
+<AllBlogs handlebookmark={handlebookmark}>
 
 
 
@@ -21,7 +32,7 @@ function App() {
 </AllBlogs>
 
 
-<Bookmark></Bookmark>
+<Bookmark  bookmarks={bookmarks}></Bookmark>
 
 
 </div>
