@@ -1,9 +1,10 @@
 import Addbook from "./addbook";
 import PropTypes from 'prop-types';
 
-const Bookmark = ({bookmarks}) => {
+const Bookmark = ({bookmarks,readingtime}) => {
     return (
        <div>
+          <div>Total Reading Time : {readingtime}</div>
 
          <div>
             <h1 className="md:w-1/3 text-2xl">Bookmarks</h1>
@@ -28,6 +29,8 @@ const Bookmark = ({bookmarks}) => {
 
 Bookmark.propTypes = {
     bookmarks: PropTypes.object.isRequired,
+    readingtime: PropTypes.object.isRequired,
+
 };
 
 

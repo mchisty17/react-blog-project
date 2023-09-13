@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-const Blog = ({ blog,handlebookmark }) => {
+const Blog = ({ blog,handlebookmark,addreadingTime }) => {
 
     const { title, author, cover, posted_date, reading_time } = blog
     return (
@@ -21,11 +21,11 @@ const Blog = ({ blog,handlebookmark }) => {
                     <button className='ml-3 btn btn-primary' onClick={()=>handlebookmark(blog)}>
                          Add To Bookmark
                   </button>
-
+               
                 </div>
             </div>
 
-
+          <button className='text-2xl font-bold text-purple-600 underline' onClick={()=>addreadingTime(reading_time)}>Mark as read</button>
         </div>
     );
 };
@@ -33,7 +33,8 @@ const Blog = ({ blog,handlebookmark }) => {
 
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handlebookmark: PropTypes.func.isRequired
+    handlebookmark: PropTypes.func.isRequired,
+    addreadingTime: PropTypes.func.isRequired,
 };
 
 
